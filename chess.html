@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <title>5×5 Chessboard (White & Black)</title>
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f0f0f0;
+      font-family: Arial, sans-serif;
+    }
+
+    .chessboard {
+      display: grid;
+      grid-template-columns: repeat(5, 60px);
+      grid-template-rows: repeat(5, 60px);
+      border: 2px solid #333;
+    }
+
+    .chessboard .white {
+      background-color: #fff;
+    }
+
+    .chessboard .black {
+      background-color: #000;
+    }
+  </style>
+</head>
+<body>
+  <div class="chessboard">
+    <!-- Row 1 -->
+    <div class="white"></div><div class="black"></div><div class="white"></div><div class="black"></div><div class="white"></div>
+    <!-- Row 2 -->
+    <div class="black"></div><div class="white"></div><div class="black"></div><div class="white"></div><div class="black"></div>
+    <!-- Row 3 -->
+    <div class="white"></div><div class="black"></div><div class="white"></div><div class="black"></div><div class="white"></div>
+    <!-- Row 4 -->
+    <div class="black"></div><div class="white"></div><div class="black"></div><div class="white"></div><div class="black"></div>
+    <!-- Row 5 -->
+    <div class="white"></div><div class="black"></div><div class="white"></div><div class="black"></div><div class="white"></div>
+  </div>
+</body>
+</html>
