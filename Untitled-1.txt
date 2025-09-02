@@ -1,0 +1,23 @@
+<label for="skills",skills:</label><br>
+<input type="checkbox" name="skills" value="HTML">/HTML
+<input type="checkbox" name="skills" value="CSS">/CSS
+<input type="checkbox" name="skills" value="JavaScript">/JavaScript
+
+
+<label for="Country"> Country:</label><br>
+<select id="Country" name="Country" required>
+    <option value="">--Select--</option>
+    <option value="India">India</option>
+    <option value="USA">USA</option>
+    <option value="Japan">Japan</option>
+
+<label for="dob">Date of Birth</label><br>
+<label type="date" id="dob" name="dob" required></label><br>
+
+<label type="resume">upload Resume:</label><br>
+<input type=""file" id="resume" name="resume" required><br><br>
+
+<input type="submit" value="Register">
+
+    
+
